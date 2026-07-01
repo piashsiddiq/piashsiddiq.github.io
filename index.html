@@ -1,0 +1,188 @@
+---
+layout: default
+permalink: /
+title: "Home"
+---
+
+<!-- =========================
+     HERO (background image + left photo + centered text)
+========================== -->
+<section class="hero hero--split">
+  <div class="hero__overlay">
+    <div class="hero__content">
+
+      <!-- LEFT: Photo -->
+      <div class="hero__photo">
+        <img src="/assets/images/profile.JPG" alt="Md Yekra Rahman">
+      </div>
+
+      <!-- RIGHT: Centered Text -->
+      <div class="hero__text">
+        <h1 class="hero__title">HI, I'M <span class="hero__name">YEKRA</span> (iq-ra)</h1>
+        <div class="hero__rule"></div>
+
+        <h2 class="hero__subtitle">
+          Designing Robust Analog ICs and Efficient Power Converters
+        </h2>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- =========================
+     HELLO SECTION (photo + text)
+========================== -->
+<section class="section section--white">
+  <div class="wrap center-col">
+
+    <h2 class="section__heading">HELLO.</h2>
+
+    <p>
+      I am Md Yekra Rahman, a PhD student in Electrical Engineering at the
+      University of Missouri–Columbia (M-I-Z!), specializing in
+      analog and power integrated circuit (IC) design. I am currently
+      actively seeking <strong>Summer 2026 internship opportunities</strong> where I can contribute
+      to the design, verification, and validation of high-performance analog and power ICs.
+    </p>
+
+    <p>
+      My technical focus spans the complete spectrum of analog/mixed-signal IC design
+      and power management. I have hands-on experience designing and verifying
+      op-amps, LDOs, PLLs, and gate-driver circuits, as well as developing
+      power management IC (PMIC) architectures for both conventional CMOS technologies
+      and emerging wide-bandgap (SiC/GaN/Ga2O3) devices. My design workflow is grounded in
+      <em>Cadence Virtuoso</em> and <em>Spectre</em>.
+    </p>
+
+    <p>
+      Beyond circuit-level design, I have experience across the full IC development flow.
+      This includes device-level TCAD simulation of power MOSFETs, extraction and
+      generation of SPICE-compatible compact models, and integration of these models
+      into Cadence environments to evaluate system-level performance. I have also designed the
+      <em>necessary auxiliary and peripheral circuits</em> to enable reliable operation of newly developed devices
+      within complete PMIC and power-conversion systems.
+    </p>
+
+    <p>
+      Complementing simulation, I value <em>practical validation and reproducible workflows</em>.
+      My experience extends from layout-aware simulation to PCB-level implementation and
+      laboratory measurement, with an attention to <em>EMI-aware design</em>. As a
+      <em>Graduate Teaching Assistant</em>, I regularly mentor students in CMOS IC design and
+      simulation.
+    </p>
+
+    <div class="btn-row">
+
+      <a class="btn btn--primary" href="/cv/">View CV</a>
+     <a class="btn btn--primary"
+     href="/assets/pdf/Md_Yekra_Rahman_Resume_Single_Page_NA.pdf"
+     download>
+     Download CV (PDF)
+  </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- =========================
+     RESEARCH INTERESTS
+========================== -->
+<section class="section section--soft">
+  <div class="wrap center">
+    <h2 class="big-title">RESEARCH INTERESTS</h2>
+    <div class="keywords">
+      {% for item in site.data.interests.items %}
+        <span class="kw">{{ item }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     UPDATES (timeline)
+========================== -->
+<section class="section section--white">
+  <div class="wrap">
+    <h2 class="big-title">News and Updates</h2>
+
+    <div class="timeline-scroll">
+      <div class="timeline">
+        {% for year in site.data.updates.years %}
+          <div class="timeline__year">
+            <div class="timeline__year-label">{{ year.year }}</div>
+
+            <div class="timeline__items">
+              {% for u in year.items %}
+                <div class="timeline__item">
+                  <div class="timeline__date">{{ u.date }}</div>
+                  <div class="timeline__text">
+                    {{ u.text }}
+                    {% if u.link %}
+                      <a href="{{ u.link }}" target="_blank" rel="noopener">Link</a>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     GET IN TOUCH
+========================== -->
+<section class="section section--soft">
+  <div class="wrap center">
+    <h2 class="big-title underline">GET IN TOUCH</h2>
+
+    <div class="social-row">
+      <!-- Email -->
+      <a class="social" href="mailto:mrvpx@missouri.edu" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <!-- GitHub -->
+      <a class="social" href="https://github.com/MdYekraRahman"
+         target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <!-- LinkedIn -->
+      <a class="social" href="https://www.linkedin.com/in/mdyekrarahman/"
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <!-- Facebook -->
+      <a class="social" href="https://www.facebook.com/yekra184/"
+         target="_blank" rel="noopener" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- X (Twitter) -->
+      <a class="social" href="https://x.com/mdyekrarahman"
+         target="_blank" rel="noopener" aria-label="X (Twitter)">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+
+      <!-- Reddit -->
+      <a class="social" href="https://www.reddit.com/user/tadpolemyxini/"
+         target="_blank" rel="noopener" aria-label="Reddit">
+        <i class="fab fa-reddit-alien"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
