@@ -73,7 +73,7 @@ classes: wide
   <!-- Square Fashions Limited -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/square-fashions-logo.png" alt="Square Fashions Limited">
+      <img src="/assets/images/logos/square-logo.png" alt="Square Fashions Limited">
     </div>
 
     <div class="edu-content">
