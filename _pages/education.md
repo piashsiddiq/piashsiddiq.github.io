@@ -124,7 +124,7 @@ classes: wide
   <!-- UT Dallas -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/logos/utd-logo.png" alt="University of Texas at Dallas">
+      <img src="/assets/images/utd-logo.png" alt="University of Texas at Dallas">
     </div>
 
     <div class="edu-content">
@@ -143,7 +143,7 @@ classes: wide
   <!-- MBS -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/logos/nub-logo.png" alt="National University of Bangladesh">
+      <img src="/assets/images/nub-logo.png" alt="National University of Bangladesh">
     </div>
 
     <div class="edu-content">
@@ -162,7 +162,7 @@ classes: wide
   <!-- BBS -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/logos/nub-logo.png" alt="National University of Bangladesh">
+      <img src="/assets/images/nub-logo.png" alt="National University of Bangladesh">
     </div>
 
     <div class="edu-content">
