@@ -130,7 +130,7 @@ classes: wide
   <!-- Novo Healthcare & Pharma -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/novo-healthcare-logo.png" alt="Novo Healthcare & Pharma Limited">
+      <img src="/assets/images/logos/Novo-logo.png" alt="Novo Healthcare & Pharma Limited">
     </div>
 
     <div class="edu-content">
