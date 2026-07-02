@@ -143,7 +143,7 @@ classes: wide
   <!-- MBS -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/nub-logo.jpg" alt="National University of Bangladesh">
+      <img src="/assets/images/nub-logo .jpg" alt="National University of Bangladesh">
     </div>
 
     <div class="edu-content">
@@ -162,7 +162,7 @@ classes: wide
   <!-- BBS -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/nub-logo.jpg" alt="National University of Bangladesh">
+      <img src="/assets/images/nub-logo .jpg" alt="National University of Bangladesh">
     </div>
 
     <div class="edu-content">
