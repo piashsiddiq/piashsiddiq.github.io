@@ -1,0 +1,43 @@
+
+years:
+  - year: 2026
+    items:
+      - date: "2026"
+        text: "Actively seeking full-time roles in Accounting, Finance, and Business/Data Analytics."
+      - date: "Jan 2026"
+        text: "Submitted Application of Intent (AOI) and educational credentials to the Texas State Board of Public Accountancy (TSBPA) for CPA exam eligibility evaluation."
+
+  - year: 2025
+    items:
+      - date: "Dec 2025"
+        text: "Completed certifications: SAP – Foundations of Business Analysis, Intuit – Bookkeeping Basics, Intuit – Financial Statement Analysis, Microsoft – Power BI, Microsoft – Data Analysis with Excel, Coursera – Python for Data Visualization, IBM – Generative AI Applications, and DataCamp – Business Data in SQL."
+      - date: "Jan 2025 – May 2025"
+        text: "Completed academic project \"Predicting Credit Card Fraud\" for the Business Analytics with R course; built and compared three ML classification models (Logistic Regression, Decision Tree, k-NN) achieving 97%+ accuracy on a 284,807-transaction dataset."
+      - date: "Jan 2025"
+        text: "Concluded role as Senior Executive – Accounts, Finance & MIS at Square Fashions Limited, Dhaka, Bangladesh."
+      - date: "Jan 2025"
+        text: "Started Dual MS in Accounting Analytics and Business Analytics & Artificial Intelligence at The University of Texas at Dallas."
+
+  - year: 2022
+    items:
+      - date: "Jan 2022"
+        text: "Joined Square Fashions Limited, Dhaka, Bangladesh as Senior Executive – Accounts, Finance & MIS."
+
+  - year: 2021
+    items:
+      - date: "Dec 2021"
+        text: "Concluded role as Senior Executive – Accounts & Finance at Al-Madina Pharmaceuticals Limited, Dhaka, Bangladesh."
+
+  - year: 2018
+    items:
+      - date: "Nov 2018"
+        text: "Joined Al-Madina Pharmaceuticals Limited, Dhaka, Bangladesh as Senior Executive – Accounts & Finance."
+      - date: "Oct 2018"
+        text: "Concluded role as Executive – Accounts & Audit at Novo Healthcare & Pharma Limited, Dhaka, Bangladesh."
+
+  - year: 2016
+    items:
+      - date: "Sept 2016"
+        text: "Graduated with Master of Business Studies (MBS) – Accounting from National University of Bangladesh."
+      - date: "Jan 2016"
+        text: "Joined Novo Healthcare & Pharma Limited, Dhaka, Bangladesh as Executive – Accounts & Audit."
