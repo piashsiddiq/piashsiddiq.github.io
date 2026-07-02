@@ -1,0 +1,142 @@
+# ===============================
+# Site Identity
+# ===============================
+title: "Abu Bakkar Siddiq"
+name: "Abu Bakkar Siddiq"
+email: "piashsiddiq@gmail.com"
+description: >-
+  Abu Bakkar Siddiq - Portfolio Website
+
+locale: "en-US"
+timezone: "America/Chicago"
+
+url: "https://piashsiddiq.github.io"
+baseurl: ""
+
+repository: "piashsiddiq/piashsiddiq.github.io"
+
+# ===============================
+# Theme / UI
+# ===============================
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "default"
+search: true
+
+# Better search experience
+search_full_content: true
+search_provider: lunr
+lunr:
+  search_within_pages: true
+# Navigation / reading UX
+breadcrumbs: true
+reading_time: true
+enable_copy_code_button: true
+
+# SEO / social preview
+title_separator: "-"
+twitter_username: "PiashSiddiq"
+github_username: "piashsiddiq"
+
+# ===============================
+# Build Settings
+# ===============================
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+# ===============================
+# Plugins (GitHub Pages safe)
+# ===============================
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+
+# ===============================
+# Author (Sidebar Profile)
+# ===============================
+author:
+  name   : "Abu Bakkar Siddiq"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "MS Student, UT Dallas"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:piashsiddiq@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/piashsiddiq"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/abu-siddiq-bakkar/"
+
+# ===============================
+# Footer (ONLY name + auto year)
+# ===============================
+footer:
+  since: 2026
+  links: []   # remove Email/GitHub/LinkedIn/Feed from footer
+  powered_by: false
+atom_feed:
+  hide: true
+# ===============================
+# Collections
+# ===============================
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# ===============================
+# Defaults
+# ===============================
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: false
+      related: true
+
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      related: false
+
+# ===============================
+# Archives
+# ===============================
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# ===============================
+# Optional scripts
+# ===============================
+after_footer_scripts:
+  - /assets/js/reveal.js
