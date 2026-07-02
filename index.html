@@ -1,0 +1,187 @@
+---
+layout: default
+permalink: /
+title: "Home"
+---
+
+<!-- =========================
+     HERO (background image + left photo + centered text)
+========================== -->
+<section class="hero hero--split">
+  <div class="hero__overlay">
+    <div class="hero__content">
+
+      <!-- LEFT: Photo -->
+      <div class="hero__photo">
+        <img src="/assets/images/profile.jpg" alt="Abu Bakkar Siddiq">
+      </div>
+
+      <!-- RIGHT: Centered Text -->
+      <div class="hero__text">
+        <h1 class="hero__title">HI, I'M <span class="hero__name">ABU SIDDIQ</span></h1>
+        <div class="hero__rule"></div>
+
+        <h2 class="hero__subtitle">
+          Bridging Financial Accounting with Data-Driven Business Analytics
+        </h2>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- =========================
+     HELLO SECTION (photo + text)
+========================== -->
+<section class="section section--white">
+  <div class="wrap center-col">
+
+    <h2 class="section__heading">HELLO.</h2>
+
+    <p>
+      I am Abu Bakkar Siddiq, a CPA Candidate and Dual MS student in Accounting
+      Analytics and Business Analytics &amp; Artificial Intelligence at
+      The University of Texas at Dallas. I am currently actively seeking
+      <strong>full-time opportunities in Accounting, Finance, and Business/Data Analytics</strong>
+      where I can apply my 9+ years of professional experience to drive
+      data-informed financial decision-making.
+    </p>
+
+    <p>
+      My expertise spans financial reporting, general ledger accounting, ERP
+      operations, and business analytics. I have hands-on experience with
+      <em>SAP S/4HANA</em>, <em>Oracle ERP</em>, and <em>QuickBooks</em> for
+      end-to-end financial transaction processing, complemented by
+      <em>Power BI</em>, <em>Tableau</em>, <em>SQL</em>, <em>Python</em>, and
+      <em>R</em> for data visualization, predictive modeling, and report automation.
+    </p>
+
+    <p>
+      Beyond financial reporting, I have experience across the full accounting
+      and finance lifecycle &mdash; from job costing, profitability analysis, and
+      budget-to-actual variance analysis, to Accounts Receivable/Payable
+      management, bank reconciliations, and vendor management. Across roles at
+      Square Fashions Limited, Al-Madina Pharmaceuticals, and Novo Healthcare
+      &amp; Pharma, I have consistently delivered measurable improvements in
+      cost control, collections efficiency, and process optimization.
+    </p>
+
+    <p>
+      Complementing my accounting foundation, I value <em>data-driven decision-making</em>
+      and reproducible analytical workflows. As a CPA Candidate, I have submitted
+      my Application of Intent to the Texas State Board of Public Accountancy, and
+      I continue to apply AI-driven tools and machine learning methods &mdash;
+      including a fraud-detection classification project &mdash; to strengthen
+      audit support, compliance, and financial risk analysis.
+    </p>
+
+    <div class="btn-row">
+
+      <a class="btn btn--primary" href="/cv/">View CV</a>
+     <a class="btn btn--primary"
+     href="/assets/pdf/Abu_Bakkar_Siddiq_Resume.pdf"
+     download>
+     Download CV (PDF)
+  </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- =========================
+     RESEARCH INTERESTS
+========================== -->
+<section class="section section--soft">
+  <div class="wrap center">
+    <h2 class="big-title">RESEARCH INTERESTS</h2>
+    <div class="keywords">
+      {% for item in site.data.interests.items %}
+        <span class="kw">{{ item }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     UPDATES (timeline)
+========================== -->
+<section class="section section--white">
+  <div class="wrap">
+    <h2 class="big-title">News and Updates</h2>
+
+    <div class="timeline-scroll">
+      <div class="timeline">
+        {% for year in site.data.updates.years %}
+          <div class="timeline__year">
+            <div class="timeline__year-label">{{ year.year }}</div>
+
+            <div class="timeline__items">
+              {% for u in year.items %}
+                <div class="timeline__item">
+                  <div class="timeline__date">{{ u.date }}</div>
+                  <div class="timeline__text">
+                    {{ u.text }}
+                    {% if u.link %}
+                      <a href="{{ u.link }}" target="_blank" rel="noopener">Link</a>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     GET IN TOUCH
+========================== -->
+<section class="section section--soft">
+  <div class="wrap center">
+    <h2 class="big-title underline">GET IN TOUCH</h2>
+
+    <div class="social-row">
+      <!-- Email -->
+      <a class="social" href="mailto:piashsiddiq@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <!-- GitHub -->
+      <a class="social" href="https://github.com/piashsiddiq"
+         target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <!-- LinkedIn -->
+      <a class="social" href="https://www.linkedin.com/in/abu-siddiq-bakkar/"
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <!-- Facebook -->
+      <a class="social" href="https://www.facebook.com/piash.siddiq.9"
+         target="_blank" rel="noopener" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- X (Twitter) -->
+      <a class="social" href="https://x.com/PiashSiddiq"
+         target="_blank" rel="noopener" aria-label="X (Twitter)">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+
+      <!-- Reddit -->
+      <a class="social" href="https://www.reddit.com/user/PiashSiddiq/"
+         target="_blank" rel="noopener" aria-label="Reddit">
+        <i class="fab fa-reddit-alien"></i>
+      </a>
+    </div>
+  </div>
+</section>
