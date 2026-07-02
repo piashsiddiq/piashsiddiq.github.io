@@ -101,7 +101,7 @@ classes: wide
   <!-- Al-Madina Pharmaceuticals -->
   <div class="edu-item">
     <div class="edu-logo">
-      <img src="/assets/images/al-madina-logo.png" alt="Al-Madina Pharmaceuticals Limited">
+      <img src="/assets/images/logos/ampl-logo.png" alt="Al-Madina Pharmaceuticals Limited">
     </div>
 
     <div class="edu-content">
